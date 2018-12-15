@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <title>Polymer</title>
+    <link rel="shortcut icon" href="images/shop-icon.png">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width: 768px)">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <a href="./index.html"> <h1>SHOP</h1></a>
+            <img class="menu-icon" src="./images/menu-icon.png" alt="menu">
+            <img class="cart-icon" src="./images/cart-icon.png" alt="cart">
+        </div>
+
+    </header>
+   
+    <main class="checkout-main">
+        <div class="outwear checkout-main-div">
+            <p class="cart-text">Checkout</p>
+            <p class="num-of-items num-cart-of-items">Shop is a demo app - form data will not be sent</p>
+        </div>
+        <form class="checkout-form" action="checkout.html">
+            <div class="left-checkout-form">
+                <h4>Account Information</h4>
+                <input type="email" placeholder="Email">
+                <input type="tel" placeholder="Phone Number">
+                <h4>Shipping Address</h4>
+                <input type="text" placeholder="Address">
+                <input type="text" placeholder="City">
+                <input class="form-50" type="text" placeholder="State/Province">
+                <input class="form-50" type="number" placeholder="Zip/Postal Code">
+                <span>country</span>
+                <select name="country" id="">
+                    <option value="United States">United States</option>
+                    <option value="Canada">Canada</option>
+                </select>
+                <h4>Billing Adrress</h4>
+                <input id="billing-type" type="checkbox">Use different billing address
+
+            </div>
+            <div class="right-checkout-form">
+                <h4>Payment Method</h4>
+                <input type="text" placeholder="Cardholder Name">
+                <input type="number" placeholder="Card Number">
+                <span>Expiry</span>
+                    <select class="expiry">
+                            <option selected value='1'>Jan</option>
+                            <option value='2'>Feb</option>
+                            <option value='3'>Mar</option>
+                            <option value='4'>Apr</option>
+                            <option value='5'>May</option>
+                            <option value='6'>Jul</option>
+                            <option value='7'>Jun</option>
+                            <option value='8'>Aug</option>
+                            <option value='9'>Sep</option>
+                            <option value='10'>Oct</option>
+                            <option value='11'>Nov</option>
+                            <option value='12'>Dec</option>
+                        </select> 
+                    <select class="expiry">
+                            <option value="2014">2016</option>
+                            <option value="2013">2017</option>
+                            <option value="2012">2018</option>
+                            <option value="2011">2019</option>
+                            <option value="2010">2020</option>
+                            <option value="2009">2021</option>
+                            <option value="2008">2022</option>
+                            <option value="2007">2023</option>
+                            <option value="2006">2024</option>
+                            <option value="2007">2025</option>
+                            <option value="2006">2026</option>
+                    </select>
+
+                    <input class="expiry" type="number" name="" placeholder="CVV">
+
+                <h4>Order Summery</h4>
+                <div class="order-summery">
+                    <div class="order-summery-div">
+                            <span>Men's Tech Shell Full-Zip</span>
+                            <span>$50.20</span>
+                    </div>
+                    <div class="order-summery-div order-total">
+                            <span>Total</span>
+                            <span>$50.20</span>
+                    </div>
+                </div>
+                <input type="submit" value="PLACE ORDER"> 
+            </div>
+            
+        </form>
+    </main>
+    <footer class="checkout-footer">
+            Made by Polymer
+            <div class="footer-note">DEMO ONLY</div>
+    </footer>
+</body>
+</html>

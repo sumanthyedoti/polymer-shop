@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <title>Polymer</title>
+    <link rel="shortcut icon" href="images/shop-icon.png">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width: 768px)">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <a href="./index.html"> <h1>SHOP</h1></a>
+            <a href="./mens_outerwear.html"><img class="back-arrow" src="./images/back-arraow.png" alt="back arraow"></a>
+            <img class="cart-icon" src="./images/cart-icon.png" alt="cart">
+        </div>
+
+    </header>
+    <nav>
+        <ul class="nav-list">
+            <li class="nav-list-item"><a href="">Men's Outerwear</a></li>
+            <li class="nav-list-item"><a href="">Ladies Outerwear</a></li>
+            <li class="nav-list-item"><a href="">Men's T-Shirts</a></li>
+            <li class="nav-list-item"><a href="">Ladies T-Shirts</a></li>
+        </ul>
+    </nav>
+    <main class="details-main">
+        <img class="details-img" src="./images/10-15068A.jpg" alt="outerwear item">
+        <div class="details-content">
+            <div class="details-details">
+                <h2 class="details-name">Men's Tech Shell Full-Zip</h2>
+                <p class="details-price">$50.20</p>
+            </div>
+            <form class="add-to-cart-form" action="./cart.html">
+                <div class="details-form-sec">
+                    <span>Size</span>
+                    <select name="size" id="size">
+                        <option value="xs">XS</option>
+                        <option value="s">S</option>
+                        <option value="m" selected>M</option>
+                        <option value="l">L</option>
+                        <option value="xl">XL</option>
+                    </select>
+                </div>
+                <div class="details-form-sec">
+                    <span>Quantity</span>
+                    <select name="quantity" id="quantitu">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <h5 class="description">Description</h5>
+                <p class="description-text">A versatile full-zip that you can wear all day long and even to the gym. 
+                This technical shell features moisture-wicking fabric, added stretch and a hidden pocket for your smartphone or media player. 
+                </p>
+                <h5 class="features">Features:</h5>
+                <ul class="features-text">
+                    <li>100% polyester.</li>
+                    <li>Smooth, technical front with textured mesh back.</li>
+                    <li>Drawstring bottom for adjustable fit.</li>
+                    <li>Raglan sleeves.</li>
+                    <li>Available in forest green with the white Google logo embroidered at left chest.</li>
+                </ul>
+                <input type="submit" value="ADD TO CART">
+            </form>
+        </div>
+        
+    </main>
+    <footer>
+            Made by Polymer
+            <div class="footer-note">DEMO ONLY</div>
+    </footer>
+    <!-- <input class="footer-submit" type="submit" value="ADD TO CART"> -->
+</body>
+</html>

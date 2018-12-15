@@ -1,0 +1,48 @@
+.menu-icon{
+    display: none;
+}
+nav{
+    display: block;
+}
+.nav-list{
+    font-size: 13px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.nav-list li{
+    display: inline-block;
+    padding: 24px;
+}
+.nav-list a{
+    text-decoration: none;
+    color: black;
+}
+.outwear img,
+.shop-outerwear-img{
+    height: 320px;
+    display: block;
+}
+.tshirt img{
+    height: 320px;
+}
+.tshirt button{
+    width: 160px;
+}
+.shop-item{
+    width: 30%;
+    max-width: 320px;
+}
+.shop-item-name{
+    font-size: 13px;
+    font-weight: bold;
+}
+.shop-item-price{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.6)
+}
+.shop-item img{
+    width: 92%;
+    margin: 3vw auto 5vw auto;
+}
+
